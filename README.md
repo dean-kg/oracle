@@ -8,6 +8,7 @@ oracle 이모저모
 - 로컬에 db 공유를 하면 도커 재실행시 데이터 증발 사라진다 -> -v <localpath>:/var/lib/oracle 옵션을 추가해준다 -->> 도커 옵션따라 input 값다름
     
 - ALTER USER <스키마이름> quota unlimited on <db연결 이름 ex) SYSTEM>;
+- ALTER USER ds quota unlimited on SYSTEM;
 
 
 ## dbeaver에서 csv to oracle
