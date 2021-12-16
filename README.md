@@ -3,7 +3,7 @@ oracle 이모저모
 
 
 ## 맥 오라클 도커 연결
-- sudo lsof -i:[포트번호] #49610 49611 확인후 kill
+- sudo lsof -i:[포트번호] #49160 49161 확인후 kill
 - docker run -d -p 49160:22 -p 49161:1521 deepdiver/docker-oracle-xe-11g // 도커연결
 - 로컬에 db 공유를 하면 도커 재실행시 데이터 증발 사라진다 -> -v <localpath>:/var/lib/oracle 옵션을 추가해준다 -->> 도커 옵션따라 input 값다름
     
