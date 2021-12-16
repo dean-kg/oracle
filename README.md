@@ -22,3 +22,12 @@ FROM DBA_DATA_FILES  -> SYSTEM 경로확인
     
 ALTER DATABASE DATAFILE 'PATH' RESIZE <limit size설정>    
 - 4000m
+
+## dbeaver 관련
+- ctl + shift + e -> auto trace
+- shift + 방향키 -> 탭이동
+- option + x -> 쿼리실행
+- ctl + ] -> sql 실행
+    
+    
+## 저장을 위해 docker 실행 -> containers/apps 에서 실행 -> 데이터작업후 -> docker commit {image name}
